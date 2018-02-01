@@ -12,12 +12,10 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css">
 </head>
 <body>
-<div class="border-teal-light border-4"></div>
-<div class="bg-grey-lightest">
+<div class="border-blue-light border-4"></div>
     @include('layouts.header')
     @yield('content')
     @include('layouts.footer')
-</div>
 </body>
 
 </html>
