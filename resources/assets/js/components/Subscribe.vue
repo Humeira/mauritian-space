@@ -1,27 +1,19 @@
 <template>
     <div>
-        <header-component/>
-        <div>this is template body</div>
-        <other-component/>
+        <form method="POST">
+            <input type="email" name="email" class="my-2 p-2 border-2 rounded">
+            <button class="bg-blue-light hover:bg-blue border-2 text-white font-bold p-2 border-blue-light hover:border-blue rounded">
+                Subscribe
+            </button>
+        </form>
     </div>
 </template>
-<style>
-    body{
-        background-color:#ff0000;
-    }
-</style>
 <script>
-    import HeaderComponent from './components/header.vue'
-    import OtherComponent from './components/other.vue'
     export default{
-        data(){
-            return{
-                msg:'hello vue'
+        data () {
+            return {
+
             }
-        },
-        components:{
-            'other-component':OtherComponent,
-            HeaderComponent,
         }
     }
 </script>
