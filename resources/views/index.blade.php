@@ -21,7 +21,4 @@
         <h2 class="font-serif text-black mb-2">Open Source projects</h2>
         <hr class="border-black border-2 w-24 float-left">
     </div>
-
-
-
 @endsection
