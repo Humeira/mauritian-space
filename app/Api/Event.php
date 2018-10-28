@@ -87,9 +87,5 @@ class Event
         if(!empty($response['results'])){
             return $response['results'];
         }
-
     }
-
-
-
 }

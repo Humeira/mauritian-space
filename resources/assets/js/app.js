@@ -1,5 +1,5 @@
 window.Vue = require('vue');
-Vue.component('subscribe', require('./components/Subscribe.vue'));
+Vue.component('event', require('./components/Event.vue'));
 const app = new Vue({
     el: '#app'
 });

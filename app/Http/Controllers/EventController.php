@@ -8,7 +8,7 @@ use \App\Api\Event as Event;
 class EventController extends Controller
 {
 
-    public function show()
+    public function getEvents()
     {
         $data = array();
         $eventList = new Event(env('MEETUP_API_COUNTRY'));
@@ -16,7 +16,6 @@ class EventController extends Controller
         $data = [
             "events" => $eventList
         ];
-
         return $data;
     }
 }

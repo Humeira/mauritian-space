@@ -20,7 +20,6 @@
                 <h4 class="font-serif text-md tracking-wide py-2">
                     Get all the latest news
                 </h4>
-                <subscribe></subscribe>
             </div>
         </div>
     </div>
