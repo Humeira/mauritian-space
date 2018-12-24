@@ -18,11 +18,9 @@
             </div>
             <div class="sm:w-1/3 my-2 text-grey-lightest px-4">
                 <h4 class="font-serif text-md tracking-wide py-2">
-                    Subscribe
+                    Get all the latest news
                 </h4>
             </div>
         </div>
     </div>
 </div>
-
-<script type="text/javascript" src="{!! asset('js/app.js') !!}"></script>
