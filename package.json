@@ -11,11 +11,13 @@
   },
   "devDependencies": {
     "axios": "^0.15.3",
-    "bootstrap-sass": "^3.3.7",
     "cross-env": "^3.2.3",
-    "jquery": "^3.1.1",
-    "laravel-mix": "0.*",
-    "lodash": "^4.17.4",
-    "vue": "^2.1.10"
+    "laravel-mix": "^4.0.12",
+    "lodash": "^4.17.11",
+    "sass": "^1.15.2",
+    "sass-loader": "7.*",
+    "tailwindcss": "^0.4.1",
+    "vue": "^2.5.17",
+    "vue-template-compiler": "^2.5.21"
   }
 }
